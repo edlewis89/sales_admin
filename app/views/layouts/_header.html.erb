@@ -1,0 +1,18 @@
+<header>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+        <% if logged_in? %>
+
+          <li> <%= link_to "Import File", current_user %></li>
+
+          <li> <%= link_to "Log out", logout_path, :method => :delete, :confirm => "Are you sure ?" %></li>
+
+        <% else %>
+          <li><%= link_to "Log in", login_path %></li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>
