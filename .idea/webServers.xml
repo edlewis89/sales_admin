@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="820434e0-e03f-41fc-a3b5-0cfa9e2e2627" name="local-dev" url="http://lewiedw.local">
+        <fileTransfer port="0" mountedRoot="$USER_HOME$/Sites/sales_admin" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
